@@ -1,0 +1,1094 @@
+/* GENERAL */
+html {
+	margin: 0;
+	box-sizing: border-box;
+	min-width: 300px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	/* outline: 1px solid #000; */
+}
+
+/* CLEARFIX */
+.group:before,
+.group:after {
+	content: " ";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+/* FLOAT --------*/
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+/* MAIN ----------------------*/
+::selection {
+	background: #E4AD6B;
+}
+
+body {
+	background: #FFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+	color: #EC942C;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* EXTRA CLASES */
+
+.box-center {
+	text-align: center;
+}
+
+/* selected-link-------------------------------- */
+
+.selected-link {
+	background: #E3902D;
+	color: #fff;
+	cursor: default;
+	border: none;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.selected-link:hover,
+.selected-link:focus {
+	background: #E3902D;
+	color: #fff;
+	cursor: default;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+/* WRAPPERS -----------------*/
+
+.header-wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.main-wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/* LANGUAGES */
+
+.language {
+	margin-top: 2em;
+}
+
+.language img {
+	max-width: 32px;
+	box-shadow: 0 0 0 0;
+
+}
+
+.language li {
+	display: inline-block;
+}
+
+
+
+
+/* HEADER -------------- */
+
+
+.header-back-homepage {
+	background-image: url("../img/apartman/stu(1).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -160px;
+
+	padding-bottom: 500px;
+}
+
+.header-back-ubytovanie {
+	background-image: url("../img/backbacked.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+
+.header-back-dvojka {
+	background-image: url("../img/dvojka/second-back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+.header-back-trojka {
+	background-image: url("../img/trojka/third-back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+.header-back-stvorka {
+	background-image: url("../img/stvorka/forth-back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+
+.header-back-galeria {
+	background-image: url("../img/back-gallery.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 410px;
+}
+
+.header-back-kontakt {
+	background-image: url("../img/back-kontakt.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+
+.header-back-rezervacia {
+	background-image: url("../img/back-rezervacia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+
+.header-back-apartman {
+	background-image: url("../img/apartman/stu-back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-position-y: -90px;
+
+	padding-bottom: 500px;
+}
+
+
+
+
+
+.header-text-wrapper {
+	margin-top: 120px;
+	background: rgba(37, 37, 37, 0.8);
+
+}
+
+.header-text {
+	padding: .3em .7em;
+	text-align: center;
+	font-size: 3.25em; /* 52/16 */
+	color: #fff;
+	line-height: 1.5em;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pre-header-text {
+	margin: 1em auto;
+	max-width: 75%;
+	font-size: 1.5em;
+	box-shadow: none;
+}
+
+#bottom-header-link {
+	display: none;
+}
+
+#telto {
+	display: none;
+}
+
+/* NAVIGATION------------------- */
+nav {
+	padding: 1em 1em 0 1em;
+	background: #fff;
+	border-radius: 0 0 1em 1em;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+nav ul li {
+	font-weight: 500;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+nav ul li:last-child{
+	margin-right: 0;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 1em .6em;
+	border-top-right-radius: .3em;
+	border-top-left-radius: .3em;
+	border: 1px solid #fffffe;
+	border-bottom: none;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 4px 91px rgba(0,0,0,0.01);
+
+
+}
+
+nav ul li:hover,
+nav ul li:focus {
+	border-top-right-radius: .3em;
+	border-top-left-radius: .3em;
+	border: none;
+	background: #EC942C;
+	transition: .2s;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+	color: inherit;
+	text-decoration: none;
+}
+
+.mini-menu {
+	display: none;
+}
+
+.logo {
+	max-width: 13em;
+	position: absolute;
+	top: 21px;
+}
+
+
+/* BUTTON - LINKS---------------- */
+.link-btn {
+	display: inline-block;
+	padding: 1.5em 1.25em; /* 24/16 */ /* 20/16 */
+	border-radius: .1em;
+	background: #E9932D;
+	color: #fff;
+	font-weight: 700;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.link-btn:hover {
+	color: #eee;
+	background: #E3902D;
+	text-decoration: none;
+}
+
+section img {
+	max-width: 450px;
+    /* box-shadow: 2px -2px 14px 2px rgba(204, 204, 204, .4); */
+    border-radius: 1.5em;
+
+}
+.homepage section img {
+
+}
+
+.show-text {
+	font-style: italic;
+
+}
+
+#text-1 {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+#text-2 {
+	margin-top: 13%;
+	margin-right: 16%;
+}
+#text-3 {
+	margin-top: 15%;
+	margin-left: 4%;
+
+}
+
+.slogan {
+	font-style: italic;
+	padding: 6em 0;
+	text-align: center;
+}
+
+.slogan h2 {
+	font-weight: 300;
+}
+
+/* CONTACT US--------------- */
+
+.contact h2 {
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.contact div {
+	max-width: 250px;
+	line-height: 1.5em; /* 24/16 */
+}
+
+.contact a {
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.contact div:nth-child(3) {
+	margin: 0 8.33333333333333%;
+}
+
+
+/* FOOTER ----------- */
+
+footer {
+	padding: 2em 0;
+	background: #34281B;
+	color: #fff;
+	box-shadow: 0px -8px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+	margin: .5em 0;
+}
+
+footer p i {
+	font-size: 1.2em;
+	position: relative;
+	top: 1px;
+}
+
+footer a {
+	color: #fff;
+}
+
+.post-footer {
+	padding-top: .5em;
+	text-align: center;
+	font-size: .9em;
+}
+
+
+
+/* WHITE-SPACES ----------- */
+
+.space, .izba-space {
+	height: 1px;
+	margin-top: 100px;
+}
+
+.ubytovanie-space {
+	height: 400px;
+}
+@media screen and (min-width: 1550px){
+	.kontakt-space {
+		height: 1px;
+		margin-top: 100px;
+	}
+}
+
+
+/* === PARTS === */
+
+/* UBYTOVANIE */
+
+.ubytovanie {
+	margin-bottom: 1em;
+}
+
+.ubytovanie div p,
+.ubytovanie div h2 {
+	margin: 0;
+}
+.ubytovanie div {
+	margin: 1.8em 0 5.2em 0;
+}
+.ubytovanie div p {
+	font-size: 109%;
+	margin: 1em 0;
+}
+.link-room {
+	display: inline-block;
+	padding: 0.6em 1.45em;
+	border-radius: .1em;
+	border: 3px solid #E9932D;
+	background: #fff;
+	color: #E9932D;
+	font-weight: 700;
+}
+
+.link-room:hover {
+	background: #E9932D;
+	color: #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.ubytovanie section {
+	display: inline-block;
+	max-width: 49%;
+	margin-bottom: 2%;
+}
+
+.ubytovanie section img {
+	padding-right: 5px;
+	max-width: 100%;
+}
+
+.ubytovanie section img:last-child {
+	padding-right: 0;
+}
+.ubytovanie section h2 {
+	margin-bottom: 2%;
+}
+
+.ubytovanie section p {
+	line-height: 1.5em;
+	margin: 0 0 5% 0;
+}
+
+.apartman {
+	margin: auto;
+	text-align: center;
+
+}
+
+.apartman section {
+	max-width: 500px;
+}
+
+.apartman img {
+	margin: 2em 0em 1em;
+	max-width: 100%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.apartman-desc {
+	margin-top: 6em;
+	margin-left: 8%;
+}
+
+.akica {
+
+}
+
+
+
+
+
+/* IZBY */
+
+
+
+.izba div:first-child {
+	max-width: 400px;
+}
+
+.izba h2,
+.izba p {
+	line-height: 1.5em;
+}
+
+
+.izba ul {
+	padding-left: 1.1em;
+	list-style-type: square;
+}
+
+.izba ul li {
+	padding-bottom: 1.25em;
+}
+
+#text-dvojka {
+	margin-top: 25%;
+	margin-left: 10%;
+}
+
+#text-trojka {
+	width: 100%;
+	margin-top: 95%;
+	margin-left: 103%;
+}
+
+#text-apartman {
+	margin-top: 31%;
+	margin-left: 50%;
+}
+
+.cena-wrapper {
+	text-align: center;
+	margin: 4.5% auto;
+    margin-bottom: -2.9%;
+}
+
+.cena {
+	display: inline-block;
+	padding: 1.5em 1.25em; /* 24/16 */ /* 20/16 */
+	border-radius: .1em;
+	background: #E9932D;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.izba-text-1 {
+	font-style: normal;
+	margin-top: 1%;
+}
+
+.izba-text-2 {
+	font-style: normal;
+	margin-top: 1.3%;
+	margin-right: 4%;
+}
+
+.trojka-text-2 {
+	font-style: normal;
+	margin-top: 1.3%;
+	margin-right: 11%;
+}
+
+.apartman-text-2{
+	font-style: normal;
+	margin-top: 0%;
+    margin-right: 9%;
+}
+
+/* PRIPOMIENKY */
+
+.pripomienky {
+	max-width: 450px;
+	margin-top: 8em;
+	margin-bottom: 8em;
+	padding: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #F7F7F7;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.pripomienky h3 {
+	text-align: center;
+	margin-top: 0em;
+}
+
+.pripomienky ul li {
+	margin-bottom: 1em;
+}
+
+.pripomienky ul li:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+
+/* GALERIA */
+
+.gallery {
+	display: inline-block;
+	text-align: center;
+}
+
+.gallery img {
+	max-width: 250px;
+}
+
+.gallery img:hover {
+	opacity: .95;
+}
+
+iframe {
+	display: block;
+    margin: 5% auto;
+    width: 85%;
+}
+
+#google-frame-bottom {
+	display: none;
+}
+
+#overlay {
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 20;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+#overlay img {
+	align-self: center;
+	max-width: 70%;
+	margin: 0 auto;
+	margin-top: 1%;
+	border: 5px solid #aaa;
+	border-radius: .1em;
+}
+
+/* FORMULAR */
+
+.form-style {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.form-style h1 {
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="tel"],
+.form-style textarea,
+.form-style select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+}
+.form-style input[type="text"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="tel"]:focus,
+.form-style textarea:focus,
+.form-style select:focus {
+    box-shadow: 0 0 5px rgba(242,163,69, .5);
+    padding: 3%;
+    border: 1px solid #F2A345;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 3%;
+    background: #E9932D;
+    border-bottom: 2px solid #E28F2C;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 105%;
+}
+input[type="submit"]:hover {
+    background: #E28F2C;
+    cursor: pointer;
+}
+
+.form-style input,
+.form-style textarea {
+    margin-top: .3em;
+}
+
+.form-style div {
+    margin-top: 1em;
+}
+
+.row-1 {
+    width: 49.5%;
+    display: inline-block;
+}
+
+.check-box p,
+.check-box label {
+    display: inline-block;
+    margin-right: 9%;
+}
+.check-box p:last-child {
+    margin-right: 0;
+}
+
+.check-box p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.check-box h3 {
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 1%;
+}
+
+.check-box p:hover,
+.check-box label:hover {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.akcia h2 {
+	margin-top: -1%;
+	text-align: center;
+	text-decoration: underline;
+
+	display: inline-block;
+	padding: 0.5em 1em; /* 24/16 */ /* 20/16 */
+	border-radius: .1em;
+	background: #E9932D;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.0em;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+	position: relative;
+
+	top: -47px;
+}
+
+.akcia a {
+	color: #fff;
+}
+
+.akcia a:hover {
+	color: #000;
+}
+
+/* MEDIA QUERIES */
+
+/* MEDIA-QUERIES ---------------- */
+
+@media screen and (max-width: 950px) {
+	.contact {
+		padding: 3%;
+	}
+	.contact div:nth-child(3) {
+		margin: 0 3%;
+	}
+
+	nav {
+		border-radius: 0;
+	}
+}
+
+@media screen and (max-width: 935px) {
+	main {
+		text-align: center;
+	}
+	main img {
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	div.form-style {
+		text-align: left;
+	}
+
+	main .left, main .right {
+		float: none;
+	}
+	#text-1, #text-2, #text-3 {
+		margin-right: 0;
+		margin-bottom: 5%;
+	}
+
+	footer {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	.izba-text-1, .izba-text-2, .apartman-text-2, .trojka-text-2 {
+		margin: 5% auto 3%;
+		padding: 0 1%;
+	}
+
+	.izba-text-2 ul, .apartman-text-2 ul, .trojka-text-2 ul {
+		margin-left: 32px;
+		text-align: left;
+	}
+
+	.izba-space {
+		display: none;
+	}
+
+	#text-dvojka {
+		margin-left: 0;
+	}
+
+	#text-apartman {
+		margin-left: 0;
+	}
+
+	#text-trojka {
+		margin: 0;
+	}
+	#text-1 {
+		margin: 0;
+	}
+
+	.akcia h2 {
+		margin-left: 1%;
+	}
+
+
+}
+
+@media screen  and (max-width: 930px) {
+	.ubytovanie section {
+		margin: auto;
+		max-width: 70%;
+	}
+	.ubytovanie section img {
+		max-width: 100%
+	}
+
+	.ubytovanie section {
+		margin-bottom: 7%;
+	}
+
+	.ubytovanie section p {
+		margin: 2%;
+	}
+	.ubytovanie-space {
+		height: 1px;
+	}
+
+}
+
+@media screen and (max-width: 867px) {
+	.contact {
+		text-align: center;
+	}
+	.contact .left {
+		float: none;
+	}
+	.contact div {
+		max-width: none;
+		line-height: 20px;
+		margin-top: 7%;
+	}
+	.contact div:nth-child(3) {
+		margin-top: 7%;
+	}
+
+	.contact div h3 {
+		margin-bottom: 1%;
+	}
+
+	.contact div p {
+		margin: 3%;
+	}
+
+	.apartman section {
+		max-width: 100%;
+		margin: auto;
+	}
+
+	.apartman-desc {
+		float: none;
+		margin: 0;
+	}
+	.apartman .left {
+		float: none;
+	}
+	.apartman-desc p {
+		margin: 2%;
+	}
+
+	.apartman img {
+		float: none;
+		max-width: 100%;
+		margin: 2em auto;
+
+	}
+
+	.ubytovanie div h2 {
+		padding: 0 2%;
+	}
+
+	footer section.left{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 2;
+	}
+}
+
+
+@media screen and (max-width: 820px) {
+	.header-text {
+		font-size: 2.95em;
+	}
+
+	.pre-header-text {
+		font-size: 1.2em;
+	}
+
+	.header-back-dvojka {
+		background-position-x: -450px;
+	}
+	#google-frame-top {
+	display: none;
+	}
+	#google-frame-bottom {
+	display: block;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	nav ul{
+		display: none;
+	}
+	.mini-menu {
+		display: block;
+	}
+	.mini-menu ul {
+		position: absolute;
+	}
+	.mini-menu ul li {
+		text-align: left;
+		display: block;
+	}
+	.mini-menu ul li  {
+		border-radius: 0;
+		padding: 7%;
+		background: #fff;
+	}
+	.mini-menu ul li:last-child {
+		margin-right: 2em;
+	}
+	.mini-menu ul li:hover,
+	.mini-menu ul li:focus {
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		background: #EC942C;
+	}
+
+	nav ul li a {
+		box-shadow: none;
+		border: none;
+	}
+
+
+	.header-text {
+		font-size: 2.5em;
+	}
+
+	.pre-header-text {
+		font-size: 1.1em;
+	}
+
+	#header-link {
+		display: none;
+	}
+
+	#bottom-header-link {
+		margin-top: 10%;
+		display: block;
+	}
+
+	#telto {
+		display: block;
+		margin-bottom: 2%;
+	}
+
+	.ubytovanie section {
+		max-width: none;
+	}
+
+	.check-box label {
+		margin-right: 3%;
+	}
+}
+@media screen and (max-width: 605px) {
+	.header-text {
+		font-size: 2em;
+	}
+	.pre-header-text {
+		font-size: 1em;
+	}
+	.check-box label {
+		margin-right: 25%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.gallery img {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	/* .header-back-homepage {
+		background-position-x: -1150px;
+	} */
+	.header-back-ubytovanie {
+		background-position-x: -750px;
+	}
+	.header-back-dvojka {
+		background-position-x: -700px;
+	}
+}
+
+@media screen and (max-width: 445px){
+	.row-1 {
+		width: 100%;
+	}
+}
