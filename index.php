@@ -24,8 +24,8 @@
 			</div>
 
 			<div class="header-phone">
-				<a href="tel:+421905604161"> <i class="fas fa-phone-square"></i>  +421 905 604 161</a>
-				<a href="mailto:info@penziondarinka.sk" > <i class="fas fa-envelope-square"></i>  info@penziondarinka.sk</a>
+				<a href="tel:+421905604161" title="+421 905 604 161"> <i class="fas fa-phone-square"></i> +421 905 604 161</a>
+				<a href="mailto:info@penziondarinka.sk" title="info@penziondarinka.sk"> <i class="fas fa-envelope-square"></i> info@penziondarinka.sk</a>
 				<a href="ubytovanie.php" title="Vyberte si izbu">Vyberte si izbu</a>
 			</div>
 		</header>

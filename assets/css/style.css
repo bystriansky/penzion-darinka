@@ -174,7 +174,7 @@ header > h1 {
 	background: #bbb;
 	background: rgba(37, 37, 37, 0.8);
 	width: 900px;
-	margin: 5% 0;
+	margin: 8rem 0;
 	padding: 2rem 1.5rem;
 }
 
@@ -665,13 +665,52 @@ label {
 /*HOME PAGE*/
 @media screen and ( max-width: 1300px ) {
 
-	.page-home header {
-		background-position: 41% center;
+
+
+
+}
+
+@media screen and ( max-width: 920px ) {
+
+	header > h1 {
+		width: auto;
+		max-width: 900px;
 	}
+
 }
 
 
+@media screen and ( max-width: 825px ) {
 
+	.top-navigation .logo,
+	.top-navigation nav {
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media screen and ( max-width: 600px ) {
+
+	.top-navigation nav {
+		width: 100%;
+	}
+
+	.main-menu {
+		justify-content: space-around;
+	}
+
+	.main-menu a {
+		padding: 1rem .5rem;
+	}
+
+}
+
+@media screen and ( max-width: 500px ) {
+
+	.main-menu {
+		justify-content: space-between;
+	}
+}
 
 
 
