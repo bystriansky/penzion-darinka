@@ -120,8 +120,9 @@ session_unset();
 
 // destroy the session
 session_destroy();
-} ?>
+}
 
-<script type="text/javascript">
-window.location = "rezervacia.html";
-</script>
+header('Location: kontakt.php');
+die();
+
+?>
