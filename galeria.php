@@ -29,9 +29,16 @@
 		<main>
 
 			<!-- VIDEO	 -->
-			<div class="container video">
+			<!-- <div class="container video">
 				<iframe src="https://www.youtube.com/embed/Di-mN71w4XQ" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+			</div> -->
+
+			<!-- STREET-VIEW-INTERIOR -->
+			<section class="container street-view">
+				<h2>Virtuálna prehliadka</h2>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ssk!2sus!4v1471094065274!6m8!1m7!1sY6WSXG_qPiQAAAQvPBFPOg!2m2!1d49.06428253693448!2d20.31128957933538!3f290.9777895440484!4f-13.40287796753131!5f0.7820865974627469" allow="accelerometer; gyroscope; picture-in-picture"></iframe>
+			</section>
 
 			<!-- GALLERY -->
 			<div class="gallery group">
@@ -67,10 +74,10 @@
 			</div>
 
 			<!-- STREET-VIEW-INTERIOR -->
-			<section class="container street-view">
+			<section class="container street-view street-view-phone">
 				<h2>Virtuálna prehliadka</h2>
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ssk!2sus!4v1471094065274!6m8!1m7!1sY6WSXG_qPiQAAAQvPBFPOg!2m2!1d49.06428253693448!2d20.31128957933538!3f290.9777895440484!4f-13.40287796753131!5f0.7820865974627469" allow="accekerometer; gyroscope; picture-in-picture"scrolling="auto"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ssk!2sus!4v1471094065274!6m8!1m7!1sY6WSXG_qPiQAAAQvPBFPOg!2m2!1d49.06428253693448!2d20.31128957933538!3f290.9777895440484!4f-13.40287796753131!5f0.7820865974627469" allow="accelerometer; gyroscope; picture-in-picture"></iframe>
 			</section>
 		</main>
 

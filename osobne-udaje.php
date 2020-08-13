@@ -17,13 +17,16 @@
 
 			<h1>Ochrana osobných údajov</h1>
 
-			<a href="ubytovanie.php" title="Vyberte si izbu">Vyberte si izbu</a>
+			<div>
+				<a href="ubytovanie.php" title="Vyberte si izbu" class="btn">Vyberte si izbu</a>
+			</div>
 		</header>
 
 		<!-- MAIN -->
-		<main>
+		<main class="contaier">
 			<section>
-				<p>V súlade s právnymi predpismi Vám prinášame podmienky Ochrany osobných údajov.</p><p>Prevádzkovateľom Penziónu Darinka a webovej stránky penziondarinka.sk je:</p>
+				<p>V súlade s právnymi predpismi Vám prinášame podmienky Ochrany osobných údajov.</p>
+				<p>Prevádzkovateľom Penziónu Darinka a webovej stránky penziondarinka.sk je:</p>
 
 				<ul>
 					<li>Jozef Kubov firma JKL services,s.r.o</li>
@@ -32,10 +35,19 @@
 					<li>DIČ 2024064284</li>
 				</ul>
 			</section>
+
 			<section>
 				<h2>Údaje, ktoré nám poskytnete s vašim súhlasom</h2>
 
 				<p>Na našej webstránke máte možnosť kontaktovať nás prostredníctvom formulárov (Kontaktný formulár, Rezervačný formulár a pod.). Súčasťou každého formuláru je aj zaklikávacia položka, ktorou nám udelíte súhlas na spracovanie vami zadaných údajov na daný konkrétny účel.</p>
+			</section>
+
+			<section>
+				<h2>Cookies</h2>
+
+				<p>Webová stránka penziondarinka.sk <strong>nepoužíva</strong>, ani nijako neuchováva či spracováva súbory cookies, ktoré sledujú aktivitu užívateľa na webovej stránke, napríklad zo štatistických dôvodov. Nevyužíva službu Google Analytics ani inú podobnú službu na spravovanie aktivít používateľa.</p>
+				<p>Nevyhnutné cookies - zabezpečujú plnú funkčnosť webovej stránky, nezhromažďujú žiadne informácie, ktoré by sa dali použiť pri marketingu, ani si nepamätajú, kde ste sa na internete pohybovali.</p>
+
 			</section>
 
 			<section>
@@ -64,6 +76,7 @@
 			</section>
 			<section>
 				<h2>Ako môžete uplatniť svoje práva?</h2>
+
 				<p>1. Kontaktovanie Zodpovednej osoby – <a href="mailto:info@penziondarinka.sk" title="Napíšte"><span>info@penziondarinka.sk</span></a></p>
 				<p>2. Úrad na ochranu osobných údajov – Ak s našou odpoveďou nie ste spokojní, alebo sa domnievate, že spracovávame vaše údaje nespravodlivo alebo nezákonne, môžete sa sťažovať na Dozorný orgán ktorým je Úrad na ochranu osobných údajov (ÚOOÚ). Ďalšie informácie o ÚOOÚ a ich postupe podávania sťažností nájdete tu: <a href="www.dataprotection.gov.sk">www.dataprotection.gov.sk</a>.</p>
 			</section>

@@ -25,12 +25,16 @@
 		<!-- MAIN CONTENT-->
 		<main class="container">
 			<section>
-				<h2>Rodinná izba</h2>
-				<img src="assets/img/trojka/trojka(1).jpg" alt="prezentation-room">
+				<div class="room-text room-desc">
+					<h2>Rodinná izba</h2>
+				</div>
+				<div class="room-img">
+					<img src="assets/img/trojka/trojka(1).jpg" alt="prezentation-room">
+				</div>
 			</section>
 
 			<section>
-				<div>
+				<div class="room-text">
 					<h2>Vybavenie izby</h2>
 					<ul>
 						<li>Mimoriadne veľký priestor</li>
@@ -42,10 +46,12 @@
 					</ul>
 				</div>
 
-				<img src="assets/img/trojka/third(1).jpg" alt="breakfast" >
+				<div class="room-img">
+					<img src="assets/img/trojka/third(1).jpg" alt="breakfast" >
+				</div>
 			</section>
 
-			<div class="price">
+			<div class="price container">
 				<span>Cena od 55€</span>
 			</div>
 		</main>
@@ -53,8 +59,6 @@
 		<!-- FOOTER -->
 		<?php include '_partials/footer.php'; ?>
 
-		<!-- SCRIPTS -->
-		<?php include '_partials/scripts.php'; ?>
 	</div>
 </body>
 </html>

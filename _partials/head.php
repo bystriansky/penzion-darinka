@@ -1,8 +1,10 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#E9932D">
 <meta name="Robots" content="index,follow">
+<meta name="author" content="Penzion Darinka">
+<meta property="og:image" content="http://www.penziondarinka.sk/assets/img/apartman/stu-back.jpg">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/normalize.css">

@@ -15,24 +15,24 @@
 			<!-- NAVIGATION -->
 			<?php include '_partials/navigation.php'; ?>
 
-			<h1>Ubytovanie v rodinnom prostredí</h1>
+			<h1>Ubytovanie v&nbsp;rodinnom prostredí</h1>
 
 			<p class="rekreacne-poukazy">Možnosť využitia rekreačných poukazov s doplnkovými službami AquaCity Poprad </p>
 
-			<div>
+			<div class="header-pc">
 				<a href="ubytovanie.php" title="Vyberte si izbu" class="btn">Vyberte si izbu</a>
 			</div>
 
-			<div class="header-phone">
-				<a href="tel:+421905604161" title="+421 905 604 161"> <i class="fas fa-phone-square"></i> +421 905 604 161</a>
-				<a href="mailto:info@penziondarinka.sk" title="info@penziondarinka.sk"> <i class="fas fa-envelope-square"></i> info@penziondarinka.sk</a>
-				<a href="ubytovanie.php" title="Vyberte si izbu">Vyberte si izbu</a>
-			</div>
+			<ul class="header-phone">
+				<li><a href="tel:+421905604161" title="+421 905 604 161" class="btn"> <i class="fas fa-phone-square"></i> +421 905 604 161</a></li>
+				<li><a href="mailto:info@penziondarinka.sk" title="info@penziondarinka.sk" class="btn"> <i class="fas fa-envelope-square"></i> info@penziondarinka.sk</a></li>
+				<li><a href="ubytovanie.php" title="Vyberte si izbu" class="btn">Vyberte si izbu</a></li>
+			</ul>
 		</header>
 
 		<!-- MAIN CONTENT-->
 		<main class="container">
-			<section class="group">
+			<section>
 				<h2>Kontinentálne raňajky </h2>
 				<img src="assets/img/home/breakfast.jpg" alt="breakfast">
 			</section>
@@ -53,11 +53,6 @@
 
 		<!-- FOOTER -->
 		<?php include '_partials/footer.php'; ?>
-
-		<!-- SCRIPTS -->
-		<?php include '_partials/scripts.php'; ?>
 	</div>
-
-	<?php include '_partials/live-chat.php'; ?>
 </body>
 </html>

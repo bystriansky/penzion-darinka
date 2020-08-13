@@ -51,7 +51,7 @@
 
 					<label class="checkbox">
 						<input type="checkbox" required>
-						<span>Súhlasím so spracovaním mnou vyššie uvedených osobných údajov na účel vypracovania ponuky a prípadnej následnej rezervácie - <a href="osobne-udaje.php">viac tu</a></span>
+						<span class="osobne-udaje">Súhlasím so spracovaním mnou vyššie uvedených osobných údajov na účel vypracovania ponuky a prípadnej následnej rezervácie - <a href="osobne-udaje.php">viac tu</a></span>
 					</label>
 
 					<input type="submit" value="Odoslať správu">

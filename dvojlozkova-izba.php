@@ -8,7 +8,7 @@
 	<title>Ubytovanie Poprad - Vysoké Tatry | Penzión Darinka</title>
 </head>
 <body>
-	<div  id="room-2" class="page-room">
+	<div id="room-2" class="page-room">
 
 		<!-- HEADER -->
 		<header>
@@ -25,12 +25,16 @@
 		<!-- MAIN CONTENT-->
 		<main class="container">
 			<section>
-				<h2>Vhodná pre páry alebo pracovné cesty</h2>
-				<img src="assets/img/dvojka/second(2).jpg" alt="prezentation-room">
+				<div class="room-text room-desc">
+					<h2>Vhodná pre páry alebo pracovné cesty</h2>
+				</div>
+				<div class="room-img">
+					<img src="assets/img/dvojka/second(2).jpg" alt="prezentation-room">
+				</div>
 			</section>
 
 			<section>
-				<div>
+				<div class="room-text">
 					<h2>Vybavenie izby</h2>
 					<ul>
 						<li>Moderná sprcha, ktorú ocenia najmä páry</li>
@@ -42,7 +46,9 @@
 					</ul>
 				</div>
 
-				<img src="assets/img/dvojka/second(1).jpg" alt="dvojka">
+				<div class="room-img">
+					<img src="assets/img/dvojka/second(1).jpg" alt="dvojka">
+				</div>
 			</section>
 
 			<div class="price container">
@@ -53,8 +59,6 @@
 		<!-- FOOTER -->
 		<?php include '_partials/footer.php'; ?>
 
-		<!-- SCRIPTS -->
-		<?php include '_partials/scripts.php'; ?>
 	</div>
 </body>
 </html>

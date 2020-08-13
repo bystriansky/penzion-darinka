@@ -25,12 +25,16 @@
 		<!-- MAIN CONTENT-->
 		<main class="container">
 			<section>
-				<h2>Rodinná izba s kuchynkou</h2>
-				<img src="assets/img/apartman/stu-1.jpg" alt="room">
+				<div class="room-text room-desc">
+					<h2>Rodinná izba s kuchynkou</h2>
+				</div>
+				<div class="room-img">
+					<img src="assets/img/apartman/stu-1.jpg" alt="room">
+				</div>
 			</section>
 
 			<section>
-				<div>
+				<div class="room-text">
 					<h2>Vybavenie izby</h2>
 					<ul>
 						<li>Plne vybavená kúpeľňa s fénom</li>
@@ -42,11 +46,12 @@
 						<li>35 m<sup>2</sup></li>
 					</ul>
 				</div>
-
-				<img src="assets/img/apartman/stu-2.jpg" alt="room">
+				<div class="room-img">
+					<img src="assets/img/apartman/stu-2.jpg" alt="room">
+				</div>
 			</section>
 
-			<div class="price">
+			<div class="price container">
 				<span>Cena od 49€</span>
 			</div>
 		</main>
@@ -55,8 +60,6 @@
 		<!-- FOOTER -->
 		<?php include '_partials/footer.php'; ?>
 
-		<!-- SCRIPTS -->
-		<?php include '_partials/scripts.php'; ?>
 	</div>
 </body>
 </html>

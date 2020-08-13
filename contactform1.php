@@ -14,8 +14,8 @@ if(!$_POST) exit();
 		$name     	= $_POST['name'];
 		$email    	= $_POST['email'];
 		$phone    	= $_POST['phone'];
-    $comments 	= $_POST['message'];
-    $error		= '';
+    	$comments 	= $_POST['message'];
+    	$error		= '';
 
 		// Important Variables
 
@@ -43,7 +43,7 @@ if(!$_POST) exit();
 		 // Example $address = "joe.doe@yourdomain.com";
 
          //$address = "example@themeforest.net";
-         $address = "info@penziondarinka.sk";
+         $address = "bystriansky.d@gmail.com";
 
 
          // Configuration option.

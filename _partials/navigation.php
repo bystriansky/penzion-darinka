@@ -6,24 +6,10 @@
 
 	<nav>
 		<ul class="main-menu">
-			<li title="Ubytovanie"><a href="ubytovanie.php">Ubytovanie</a></li>
-			<li title="Galéria"><a href="galeria.php">Galéria</a></li>
-			<li title="Kontakt"><a href="kontakt.php">Kontakt</a></li>
-			<li title="Rezervácia"><a href="rezervacia.php"><strong>Rezervácia</strong></a></li>
+			<li><a href="ubytovanie.php" title="Ubytovanie">Ubytovanie</a></li>
+			<li><a href="galeria.php" title="Galéria">Galéria</a></li>
+			<li><a href="kontakt.php" title="Kontakt">Kontakt</a></li>
+			<li><a href="rezervacia.php"  title="Rezervácia"><strong>Rezervácia</strong></a></li>
 		</ul>
-
-		<!-- #BEGIN only for phone -->
-		<div class="hamburger">
-			<i class="fas fa-bars"></i> MENU
-		</div>
-
-		<ul class="mini-menu">
-			<li title="Ubytovanie"><a href="ubytovanie.php">Ubytovanie</a></li>
-			<li title="Galéria"><a href="galeria.php">Galéria</a></li>
-			<li title="Kontakt"><a href="kontakt.php">Kontakt</a></li>
-			<li title="Rezervácia"><a href="rezervacia.php"><strong>Rezervácia</strong></a></li>
-		</ul>
-		<!-- #END only for phone -->
-
 	</nav>
 </div>

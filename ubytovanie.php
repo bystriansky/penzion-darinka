@@ -71,14 +71,12 @@
 
 		<!-- VIDEO	 -->
 		<div class="container video">
-			<iframe src="https://www.youtube.com/embed/Di-mN71w4XQ" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/Di-mN71w4XQ" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" title="Video Penzión Darinka" allowfullscreen></iframe>
 		</div>
 
 		<!-- FOOTER -->
 		<?php include '_partials/footer.php'; ?>
 
-		<!-- SCRIPTS -->
-		<?php include '_partials/scripts.php'; ?>
 	</div>
 </body>
 </html>
