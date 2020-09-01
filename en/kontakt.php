@@ -1,72 +1,66 @@
-<?php
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<?php include '_partials/head.php'; ?>
 
-include 'header.php';
+	<meta name="keywords" content="penzion, poprad, ubytovanie, rezervacia, darinka, free, rooms, booking, spisska sobota, vysoke tatry, ubytko, aquacity, rodinna izba, centrum, pod tatrami">
+	<meta name="description" content="Penzión Darinka oferuje komfortowe zakwaterowanie pod Tatrami Wysokimi w spokojnej części Popradu - Spisska Sobota, zaledwie 600 metrów od AquaCity Poprad.">
+	<title>Zakwaterowanie Poprad - Wysokie Tatry | Penzión Darinka</title>
+</head>
+<body>
+	<div class="page-contact">
 
-?>
-	<header class="header-back-kontakt">
-<?php
+		<!-- HEADERR -->
+		<header>
+			<!-- NAVIGATION -->
+			<?php include '_partials/navigation.php'; ?>
 
-include 'nav.php';
+			<h1>You have not chosen?<br>Do you want to know more?</h1>
 
-?>
+			<div>
+				<a href="#contact-id" class="btn">Write us</a>
+			</div>
+		</header>
 
-		<div class="container header-text-wrapper">
-			<h1 class="header-text">You have not chosen?<br>Do you want to know more??</h1>
-		</div>
+		<!-- MAIN -->
+		<main id="contact-id" class="container">
+			<section>
+				<h2>You have not found what you have been looking for?</h2>
+				<p>Send us a message, we will be pleased to help you</p>
 
-		<div class="container box-center">
-			<a href="#contact-id" class="link-btn">Write us</a>
-		</div>
-	</header>
-<!-- main ------------------------------------>
-	<main id="contact-id" class="container">
-
-	<div class="kontakt-space"></div>
-	<div class="ubyovanie-space"></div>
-
-		<section class="box-center">
-			<h2>You have not found what you have been looking for?</h2>
-			<p>Send us a message, we will be pleased to help you</p>
-		</section>
-		<section>
-			<div class="form-style">
-			<form action="contactform.php" method="post" name="contactform" autocomplete="on">
-
-				<div>
+				<form action="contactform.php" method="post" name="contactform" autocomplete="on" class="form-style">
 					<label>
 						Your name
 						<input type="text" name="name" required>
 					</label>
-				</div>
-				<div>
+
 					<label>
 						Phone number
-						<input type="tel" name="phone" required>
+						<input type="tel" name="phone">
 					</label>
-				</div>
-				<div>
+
 					<label>
 						Email
 						<input type="email" name="email" required>
 					</label>
-				</div>
-				<div>
+
 					<label>
 						Message
-						<textarea id="" cols="30" rows="7" name="message" required></textarea>
+						<textarea rows="7" name="message" required></textarea>
 					</label>
-				</div>
-				<div>
+
+					<label class="checkbox">
+						<input type="checkbox" required>
+						<span class="osobne-udaje">I agree to the processing of the above personal data by me for the purpose of preparing an offer and any subsequent reservation - <a href="../osobne-udaje.php">more here</a></span>
+					</label>
+
 					<input type="submit" value="Send a message">
-				</div>
-			</form>
-		</section>
-	</main>
+				</form>
+			</section>
+		</main>
 
-	<div class="space"></div>
-
-	<?php
-
-include 'footer.php';
-
-	?>
+		<!-- FOOTER -->
+		<?php include '_partials/footer.php'; ?>
+	</div>
+</body>
+</html>

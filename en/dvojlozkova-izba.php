@@ -1,62 +1,64 @@
-<?php
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<?php include '_partials/head.php'; ?>
 
-include 'header.php';
+	<meta name="keywords" content="penzion, poprad, ubytovanie, rezervacia, darinka, free, rooms, booking, spisska sobota, vysoke tatry, ubytko, aquacity, rodinna izba, centrum, pod tatrami">
+	<meta name="description" content="Penzión Darinka oferuje komfortowe zakwaterowanie pod Tatrami Wysokimi w spokojnej części Popradu - Spisska Sobota, zaledwie 600 metrów od AquaCity Poprad.">
+	<title>Zakwaterowanie Poprad - Wysokie Tatry | Penzión Darinka</title>
+</head>
+<body>
+	<div id="room-2" class="page-room">
 
-?>
+		<!-- HEADER -->
+		<header>
+			<!-- NAVIGATION -->
+			<?php include '_partials/navigation.php'; ?>
 
-	<header class="header-back-dvojka">
-		<?php
+			<h1>Double room Deluxe</h1>
 
-		include 'nav.php';
-
-		?>
-
-		<div class="container header-text-wrapper">
-			<h1 class="header-text">Double room Deluxe </h1>
-		</div>
-
-		<div class="container box-center">
-			<a href="rezervacia.php" class="link-btn">Check availability</a>
-		</div>
-	</header>
-
-<!-- MAIN ------------------------------------>
-
-	<main>
-		<div class="izba-space"></div>
-		<section class="izba container group">
-			<div class="izba-text-1 show-text left">
-				<h2 id="text-dvojka">For couples and business trips</h2>
+			<div>
+				<a href="rezervacia.php" class="btn">Check availability</a>
 			</div>
-			<div class="right none"><img src="../assets/img/dvojka/second(2).jpg" alt="prezentation-room"></div>
-		</section>
+		</header>
 
-		<section class="izba container group">
-			<div class="izba-text-2 show-text right">
-				<h2>Room equipment:</h2>
-				<ul>
-					<li>Modern shower, especially couples will appreciate</li>
-					<li>Fully equipped bathroom with a hairdryer</li>
-					<li>LED television with satellite</li>
-					<li>View of the town</li>
-					<li>Free WiFi</li>
-					<li>25 m<sup>2</sup></li>
-				</ul>
+		<!-- MAIN CONTENT-->
+		<main class="container">
+			<section>
+				<div class="room-text room-desc">
+					<h2>For couples and business trips</h2>
+				</div>
+				<div class="room-img">
+					<img src="../assets/img/dvojka/second(2).jpg" alt="prezentation-room">
+				</div>
+			</section>
+
+			<section>
+				<div class="room-text">
+					<h2>Room equipment</h2>
+					<ul>
+						<li>Modern shower, especially couples will appreciate</li>
+						<li>Fully equipped bathroom with a hairdryer</li>
+						<li>LED television with satellite</li>
+						<li>View of the town</li>
+						<li>Free WiFi</li>
+						<li>25 m<sup>2</sup></li>
+					</ul>
+				</div>
+
+				<div class="room-img">
+					<img src="../assets/img/dvojka/second(1).jpg" alt="dvojka">
+				</div>
+			</section>
+
+			<div class="price container">
+				<span>Price from 45€</span>
 			</div>
-			<div class="left none"><img src="../assets/img/dvojka/second(1).jpg" alt="dvojka" ></div>
-		</section>
-		<section>
-			<div class="container cena-wrapper">
-				<span class="cena">Price from 45€</span>
-			</div>
-		</section>
+		</main>
 
-	</main>
+		<!-- FOOTER -->
+		<?php include '_partials/footer.php'; ?>
 
-	<div class="space"></div>
-
-<?php
-
-include 'footer.php';
-
-?>
+	</div>
+</body>
+</html>

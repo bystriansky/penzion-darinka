@@ -4,12 +4,12 @@ if(!$_POST) exit();
 
 		if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-		$subject     	= 'Kontaktný formulár - Penzión Darinka';
+		$subject    = 'Kontaktný formulár - Penzión Darinka';
 		$name     	= $_POST['name'];
-	  $phone    	= $_POST['phone'];
+	 	$phone    	= $_POST['phone'];
 		$email    	= $_POST['email'];
-    $comments 	= $_POST['message'];
-    $error		= '';
+    	$comments 	= $_POST['message'];
+    	$error		= '';
 
 		// Important Variables
 
@@ -37,7 +37,7 @@ if(!$_POST) exit();
 		 // Example $address = "joe.doe@yourdomain.com";
 
          //$address = "example@themeforest.net";
-         $address = "info@penziondarinka.sk";
+         $address = "bystriansky.d@gmail.com";
 
 
          // Configuration option.
@@ -86,9 +86,6 @@ if(!$_POST) exit();
 		 //$success = mail($address, $e_subject, $msg, $headers);
 
 		 //}
-
-
-
 	}
 
 function isEmail($email) { // Email address verification, do not edit.
@@ -100,8 +97,9 @@ session_unset();
 
 // destroy the session
 session_destroy();
-} ?>
+}
 
-<script type="text/javascript">
-window.location = "kontakt.html";
-</script>
+header('Location: kontakt.php');
+die();
+
+?>

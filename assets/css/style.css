@@ -1221,7 +1221,12 @@ label {
 	}
 }
 
+
+
+
+
 /*LANGUAGE OPTIONS*/
+/*PL*/
 
 html[lang="pl"] .page-room .room-text {
 	padding: 0px 3rem
@@ -1234,6 +1239,7 @@ html[lang="pl"] .page-room .room-text {
     	padding: 0 0.25rem 1rem;
 	}
 }
+
 
 @media screen and ( max-width: 315px ) {
 	html[lang="pl"] {

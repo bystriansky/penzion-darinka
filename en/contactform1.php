@@ -14,8 +14,8 @@ if(!$_POST) exit();
 		$name     	= $_POST['name'];
 		$email    	= $_POST['email'];
 		$phone    	= $_POST['phone'];
-    $comments 	= $_POST['message'];
-    $error		= '';
+    	$comments 	= $_POST['message'];
+    	$error		= '';
 
 		// Important Variables
 
@@ -43,7 +43,7 @@ if(!$_POST) exit();
 		 // Example $address = "joe.doe@yourdomain.com";
 
          //$address = "example@themeforest.net";
-         $address = "info@penziondarinka.sk";
+         $address = "bystriansky.d@gmail.com";
 
 
          // Configuration option.
@@ -59,13 +59,18 @@ if(!$_POST) exit();
 		 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
 		 $esubject = "$subject" . PHP_EOL . PHP_EOL;
-		 $e_body = "Príchod: $start " . PHP_EOL . "Odchod: $end " . PHP_EOL . "Počet dospelých: $pocetdospelych " . PHP_EOL .
-		 "Počet detí: $pocetdeti " . PHP_EOL . "Meno a priezvisko: $name " . PHP_EOL . "Telefón: $phone " . PHP_EOL . PHP_EOL;
+		 $e_body = "Príchod: $start " . PHP_EOL .
+		 			"Odchod: $end " . PHP_EOL .
+		 			"Počet dospelých: $pocetdospelych " . PHP_EOL .
+		 			"Počet detí: $pocetdeti " . PHP_EOL .
+		 			"Typ izby: $izba " . PHP_EOL .
+		 			"Meno a priezvisko: $name " . PHP_EOL .
+		 			"Telefón: $phone " . PHP_EOL . PHP_EOL;
 		 $e_content = "Špeciálne prianie: \"$comments\"";
 		 $e_reply = "E-mail: $email" . PHP_EOL . PHP_EOL;
 
          $msg = wordwrap($esubject . $e_body . $e_reply . $e_content,100);
-		 $msg2 = wordwrap("Vašu požiadavku o overenie obsadenosti sme úspešne prijali." . PHP_EOL . "Čoskoro Vás budeme kontaktovať.",100);
+		 $msg2 = wordwrap("We have successfully accepted your availability verification request." . PHP_EOL . "We will contact you soon.",100);
 
          $headers = "From: $email" . PHP_EOL;
 		 $headers .= "Reply-To: $email" . PHP_EOL;
@@ -115,8 +120,9 @@ session_unset();
 
 // destroy the session
 session_destroy();
-} ?>
+}
 
-<script type="text/javascript">
-window.location = "rezervacia.html";
-</script>
+header('Location: kontakt.php');
+die();
+
+?>
