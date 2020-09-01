@@ -1,177 +1,109 @@
-<?php
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<?php include '_partials/head.php'; ?>
 
-include 'header.php';
+	<meta name="keywords" content="penzion, poprad, ubytovanie, rezervacia, darinka, free, rooms, booking, spisska sobota, vysoke tatry, ubytko, aquacity, rodinna izba, centrum, pod tatrami">
+	<meta name="description" content="Penzión Darinka oferuje komfortowe zakwaterowanie pod Tatrami Wysokimi w spokojnej części Popradu - Spisska Sobota, zaledwie 600 metrów od AquaCity Poprad.">
+	<title>Zakwaterowanie Poprad - Wysokie Tatry | Penzión Darinka</title>
+</head>
+<body>
+	<div class="page-rezervacia">
 
-?>
-	<header class="header-back-rezervacia">
-		<?php
+		<!-- HEADER -->
+		<header>
+			<!-- NAVIGATION -->
+			<?php include '_partials/navigation.php'; ?>
 
-		include 'nav.php';
-
-		?>
-
-		<div class="container header-text-wrapper">
-			<h1 class="header-text">Sprawdźcie dostępność pokojów z najkorzystniejszą ofertą cenową</h1>
-		</div>
-
-		<div class="container box-center">
-			<a href="#rezevacia-id" class="link-btn">Przejdź do formularza </a>
-		</div>
-	</header>
-<!-- main ------------------------------------>
-	<div class="akcia container">
-		<h2><a href="Akciove-ponuky.pdf" target="_blank">Skorzystajcie z naszych ofert promocyjnych .pdf <i class="fas fa-file-pdf"></i></a></h2>
-	</div>
-
-	<main id="rezevacia-id" class="container">
-
-		<div class="kontakt-space"></div>
-		<div class="ubyovanie-space"></div>
-
-		<h2 class="box-center">Sprawdźcie dostępność zanim wyślecie formularz </h2>
-		<p class="box-center">Waszym zgłoszeniem od razu się zajmiemy i za moment wam odpowiemy</p>
-		<div class="form-style">
-		<form action="contactform1.php" method="post" name="contactform"autocomplete="on">
-
-			<div class="row-1">
-				<label>
-					Przyjazd
-					<input id="today" min="value" type="date" name="start" required>
-				</label>
-			</div>
-
-			<div class="row-1">
-				<label>
-					Wykwaterowanie
-					<input id="tomorrow" type="date" name="end" required>
-				</label>
-			</div>
-			<br>
-			<div class="row-1">
-				<label>
-					Liczba dorosłych
-					<input id="adults" type="number" name="pocetdospelych" value="2" min="1" max="30" required>
-				</label>
-			</div>
-
-			<div class="row-1">
-				<label>
-					Liczba dzieci
-					<input id="children" type="number" name="pocetdeti" value="0" min="0" max="10">
-				</label>
-			</div>
-
-			<div class="check-box">
-				<h3>Rodzaj pokoju   </h3>
-		  		<label>
-		  			<p><input type="radio" name="izba" value="Dvojlôžková Deluxe" checked>2 łóżkowy pokój Deluxe</p>
-		  		</label>
-				<label>
-					<p><input type="radio" name="izba" value="Trojlôžková Classic"> 3 łóżkowy pokój Classic</p>
-				</label>
-		  		<label>
-		  			<p><input type="radio" name="izba" value="Štvorlôžková Classic"> 4 łóżkowy pokój Classic </p>
-		  		</label>
-		  		<label>
-		  			<p><input type="radio" name="izba" value="Štúdio Deluxe"> Studio Deluxe</p>
-		  		</label>
-			</div>
+			<h1>Sprawdźcie dostępność pokojów z najkorzystniejszą ofertą cenową</h1>
 
 			<div>
-				<label>Wasze imię
-					<input type="text" name="name" required>
-				</label>
+				<a href="#rezevacia-id" class="btn">Przejdź do formularza</a>
 			</div>
+		</header>
 
-			<div>
-				<label>Email<input type="email" name="email" required></label>
-			</div>
+		<!-- MAIN -->
+		<main id="rezevacia-id" class="container">
+			<section>
+			<h2>Sprawdźcie dostępność zanim wyślecie formularz</h2>
+			<p>Waszym zgłoszeniem od razu się zajmiemy i za moment wam odpowiemy</p>
 
-			<div>
-				<label>Numer telefonu<input type="tel" name="phone" required></label>
-			</div>
+				<form action="contactform1.php" method="post" name="contactform" autocomplete="on" class="form-style">
+					<div class="row">
+						<label>Przyjazd
+							<input id="today" type="date" name="start" required>
+						</label>
 
-			<div>
-				<label>Note
-					<textarea id="message" name="message" rows="4" placeholder="Macie jakieś specjalne wymagania? " spellcheck="true"></textarea>
-				</label>
-			</div>
+						<label>Wykwaterowanie
+							<input id="tomorrow" type="date" name="end" required>
+						</label>
+					</div>
 
-			<div>
-				<input type="submit" value="Niewiążąca rezerwacja ">
-			</div>
-		</form>
+					<label>Liczba dorosłych
+						<input id="adults" type="number" name="pocetdospelych" value="2" min="1" max="30" required>
+					</label>
 
-		</div>
+					<label>Liczba dzieci
+						<input id="children" type="number" name="pocetdeti" value="0" min="0" max="10">
+					</label>
 
-	</main>
-	<div class="space"></div>
+					<div class="radiobox">
+						<h3>Rodzaj pokoju</h3>
+						<div>
+					  		<label>
+					  			<input type="radio" name="izba" value="Dvojlôžková Deluxe" checked> 2 łóżkowy pokój Deluxe
+					  		</label>
+							<label>
+								<input type="radio" name="izba" value="Trojlôžková Classic"> 3 łóżkowy pokój Classic
+							</label>
+					  		<label>
+					  			<input type="radio" name="izba" value="Štvorlôžková Classic"> 4 łóżkowy pokój Classic
+					  		</label>
+					  		<label>
+					  			<input type="radio" name="izba" value="Štúdio Deluxe"> Studio Deluxe
+					  		</label>
+				  		</div>
+					</div>
 
-<!-- CONTACT-US ----------------------------------------------->
+					<label>Wasze imię
+						<input type="text" name="name" required>
+					</label>
 
-<div class="contact container group">
-	<h2>Zapytajcie, zarezerwujcie, poznajcie </h2>
+					<label>Email
+						<input type="email" name="email" required>
+					</label>
 
-	<div class="left">
-		<h3>Napiszcie do nas</h3>
-		<p>Bezprośrednio przez formularz lub przez email: </p>
-		<a href="mailto:info@penziondarinka.sk" title="Napiszcie"><span>info@penziondarinka.sk</span></a>
+					<label>Numer telefonu
+						<input type="tel" name="phone" required>
+					</label>
+
+					<label>Note
+						<textarea name="message" rows="4" placeholder="Macie jakieś specjalne wymagania?" spellcheck="true"></textarea>
+					</label>
+					<label class="checkbox">
+						<input type="checkbox" required>
+						<span class="osobne-udaje">Wyrażam zgodę na przetwarzanie przeze mnie powyższych danych osobowych w celu przygotowania oferty i późniejszej rezerwacji - <a href="../osobne-udaje.php">więcej tutaj</a></span>
+					</label>
+
+					<input type="submit" value="Niewiążąca rezerwacja">
+				</form>
+			</section>
+		</main>
+
+		<!-- FOOTER -->
+		<?php include '_partials/footer.php'; ?>
+
+		<script>
+			let today = new Date().toISOString().substr(0, 10);
+			document.querySelector("#today").value = today;
+
+			let tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000).toISOString().substr(0, 10);
+			document.querySelector("#tomorrow").value = tomorrow;
+
+			let minimal = new Date().toISOString().substr(0, 10);
+			document.querySelector("#today").min = today;
+			document.querySelector("#tomorrow").min = tomorrow;
+		</script>
 	</div>
-
-	<div class="left">
-		<h3>Zadzwońcie</h3>
-		<p>Na wszystko chętnie odpowiemy pod numerem telefonu: </p>
-		<a href="tel:+421905604161" title="Zadzwońcie">+421 905 604 161</a>
-	</div>
-
-	<div class="left">
-		<h3>Przyjedźcie</h3>
-		<p>Boženy Němcovej 1/B Poprad - Spišská Sobota</p>
-		<a href="https://www.google.com/maps/place/Pension+Darinka/@49.0642535,20.3087003,17z/data=!3m1!4b1!4m7!3m6!1s0x473e3aef0b8aeed5:0xb0e3434c9d86cf9f!5m1!1s2018-08-26!8m2!3d49.06425!4d20.310889" title="Przyjedźcie" target="_blank">Znajdujemy się tutaj <i class="fas fa-external-link-alt"></i></a>
-	</div>
-</div>
-
-<div class="space"></div>
-
-<!-- FOOTER -------------------------------------------------->
-
-<footer>
-	<div class="container group">
-		<section class="left">
-			<h4>Kontakt</h4>
-			<p><a href="tel:+421905604161" title="Call us"><i class="fas fa-phone-square"></i> +421 905 604 161</a></p>
-			<p><a href="mailto:info@penziondarinka.sk" title="Write us"><i class="fas fa-envelope-square"></i> info@penziondarinka.sk</a></p>
-			<p><a href="https://www.facebook.com/darinkapoprad/" title="Facebook" target="_blank"><i class="fab fa-facebook-square"></i> facebook</a></p>
-			<p><a href="https://www.instagram.com/penziondarinka/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i> instagram</a></p>
-			<ul class="language">
-				<li><a href="../index.html"><img src="../assets/img/flags/sk.svg" alt="SK"></a></li>
-				<li><a href="../en/index.php"><img src="../assets/img/flags/gb.svg" alt="EN" title="EN"></a></li>
-				<li><img src="../assets/img/flags/pl.svg" alt="PL" title="PL"></li>
-			</ul>
-		</section>
-	</div>
-
-	<div class="container post-footer">
-		&copy; Penzión Darinka
-	</div>
-</footer>
-
-<!-- END ------------------------------------------->
-
-<script src="../assets/js/script.js"></script>
-<script src="../assets/js/jquery-3.3.1.js"></script>
-<script>
-
-	let today = new Date().toISOString().substr(0, 10);
-	document.querySelector("#today").value = today;
-
-	let tomorrow = new Date(new Date().getTime() + 24 * 60 * 60 * 1000).toISOString().substr(0, 10);
-	document.querySelector("#tomorrow").value = tomorrow;
-
-	let minimal = new Date().toISOString().substr(0, 10);
-	document.querySelector("#today").min = today;
-	document.querySelector("#tomorrow").min = tomorrow;
-
-</script>
 </body>
 </html>

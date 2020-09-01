@@ -9,7 +9,7 @@
 			<li><a href="ubytovanie.php" title="Ubytovanie">Ubytovanie</a></li>
 			<li><a href="galeria.php" title="Galéria">Galéria</a></li>
 			<li><a href="kontakt.php" title="Kontakt">Kontakt</a></li>
-			<li><a href="rezervacia.php"  title="Rezervácia"><strong>Rezervácia</strong></a></li>
+			<li><a href="rezervacia.php" title="Rezervácia"><strong>Rezervácia</strong></a></li>
 		</ul>
 	</nav>
 </div>

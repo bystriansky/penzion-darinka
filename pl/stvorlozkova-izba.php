@@ -1,63 +1,63 @@
-<?php
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<?php include '_partials/head.php'; ?>
 
-include 'header.php';
+	<meta name="keywords" content="penzion, poprad, ubytovanie, rezervacia, darinka, free, rooms, booking, spisska sobota, vysoke tatry, ubytko, aquacity, rodinna izba, centrum, pod tatrami">
+	<meta name="description" content="Penzión Darinka oferuje komfortowe zakwaterowanie pod Tatrami Wysokimi w spokojnej części Popradu - Spisska Sobota, zaledwie 600 metrów od AquaCity Poprad.">
+	<title>Zakwaterowanie Poprad - Wysokie Tatry | Penzión Darinka</title>
+</head>
+<body>
+	<div id="room-4" class="page-room">
 
-?>
-	<header class="header-back-stvorka">
-		<?php
+		<!-- HEADER -->
+		<header>
+			<!-- NAVIGATION -->
+			<?php include '_partials/navigation.php'; ?>
 
-		include 'nav.php';
+			<h1>4 łóżkowy pokój Classic</h1>
 
-		?>
-
-		<div class="container header-text-wrapper">
-			<h1 class="header-text">4 łóżkowy pokój Classic</h1>
-		</div>
-
-		<div class="container box-center">
-			<a href="rezervacia.php" class="link-btn">Sprawdź dostępność </a>
-		</div>
-	</header>
-
-<!-- MAIN ------------------------------------>
-
-	<main>
-			<div class="izba-space"></div>
-		<section class="izba container group">
-			<div class="izba-text-1 show-text left">
-				<h2 id="text-trojka">Pokój rodzinny</h2>
+			<div>
+				<a href="rezervacia.php" class="btn">Sprawdź dostępność</a>
 			</div>
-			<div class="right none"><img src="../assets/img/stvorka/forth(2).jpg" alt="prezentation-room"></div>
-		</section>
+		</header>
 
-		<section class="izba container group">
-			<div class="trojka-text-2 show-text right" style="margin: auto;">
-				<h2>Wyposażenie pokoju:</h2>
-				<ul>
-					<li>Bardzo duża przestrzeń</li>
-					<li>Łażenka w pełni wyposażona z suszarką do włosów</li>
-					<li>Telewizor LED z anteną satelitarną </li>
-					<li>Widok na miasto</li>
-					<li>Free WiFi</li>
-					<li>35 m<sup>2</sup></li>
-				</ul>
+		<!-- MAIN CONTENT-->
+		<main class="container">
+			<section>
+				<div class="room-text room-desc">
+					<h2>Pokój rodzinny</h2>
+				</div>
+				<div class="room-img">
+					<img src="../assets/img/stvorka/forth(2).jpg" alt="prezentation-room">
+				</div>
+			</section>
+
+			<section>
+				<div class="room-text">
+					<h2>Wyposażenie pokoju</h2>
+					<ul>
+						<li>Bardzo duża przestrzeń</li>
+						<li>Łażenka w pełni wyposażona z suszarką do włosów</li>
+						<li>Telewizor LED z anteną satelitarną</li>
+						<li>Widok na miasto</li>
+						<li>Free WiFi</li>
+						<li>35 m<sup>2</sup></li>
+					</ul>
+				</div>
+
+				<div class="room-img">
+					<img src="../assets/img/stvorka/forth(1).jpg" alt="breakfast">
+				</div>
+			</section>
+
+			<div class="price container">
+				<span>Cena od 65€</span>
 			</div>
-			<div class="left none"><img src="../assets/img/stvorka/forth(1).jpg" alt="breakfast" ></div>
-		</section>
-		<section>
+		</main>
 
-			<div class="container cena-wrapper">
-				<span class="cena">Cena od 65€</span>
-			</div>
-
-		</section>
-
-	</main>
-
-	<div class="space"></div>
-
-<?php
-
-include 'footer.php';
-
-?>
+		<!-- FOOTER -->
+		<?php include '_partials/footer.php'; ?>
+	</div>
+</body>
+</html>

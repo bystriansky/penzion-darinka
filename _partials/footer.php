@@ -43,7 +43,7 @@
 
 	<!-- POST-FOOTER -->
 	<div class="post-footer">
-		<a href="osobne-udaje.php">Ochrana osobých údajov GDPR</a>
+		<a href="osobne-udaje.php">Ochrana osobných údajov GDPR</a>
 		<div>&copy; 2020 | Penzión Darinka</div>
 	</div>
 </footer>

@@ -1220,3 +1220,23 @@ label {
 		display: none;
 	}
 }
+
+/*LANGUAGE OPTIONS*/
+
+html[lang="pl"] .page-room .room-text {
+	padding: 0px 3rem
+}
+
+
+@media screen and ( max-width: 340px ) {
+
+	html[lang="pl"] .top-navigation {
+    	padding: 0 0.25rem 1rem;
+	}
+}
+
+@media screen and ( max-width: 315px ) {
+	html[lang="pl"] {
+		width: 315px;
+	}
+}

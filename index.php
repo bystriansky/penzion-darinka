@@ -33,7 +33,7 @@
 		<!-- MAIN CONTENT-->
 		<main class="container">
 			<section>
-				<h2>Kontinentálne raňajky </h2>
+				<h2>Kontinentálne raňajky</h2>
 				<img src="assets/img/home/breakfast.jpg" alt="breakfast">
 			</section>
 
